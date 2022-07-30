@@ -11,7 +11,7 @@ dic = {}
 # 調整する平均輝度を設定
 averageBrightness = 150
 
-files = glob.glob("./images/*/*g")
+files = glob.glob("./images/*g")
 
 def sigmoid(a):
     s = 1 / (1 + math.e**-a)
